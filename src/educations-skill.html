@@ -3,75 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>education and skill</title>
+    <title>Education and skill</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
-<body>
-    <header>
-        <img src="images/logo.png" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./aboutme.html">About Me</a></li>
-                <li><a href="./experience.html">Experience</a></li>
-                <li><a href="./educations-skill.html">Education and skill</a></li>
-                <li><a href="./contactme.html">Contact Me</a></li>
-            </ul> 
-        </nav>
-    </header>
-    <main>
-        
-        <section>
-            <h1>Education and Skills</h1>
-            <h2>Education</h2>
-                    <ul>
-                        <li><a href="https://portal.aait.edu.et">Addis Ababa Institute Of Technology</a>
+<body class="hero is-black">
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <img class="image is-64x64 ml-6" src="images/lastlogo.jpg" alt="logo">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-menu">
+                <div class="navbar-start mr-6 pr-6 title is-5">
+                    <a class="navbar-item" href="./home.html">Home</a>
+                    <a class="navbar-item" href="./aboutme.html">About Me</a>
+                    <a class="navbar-item" href="./experience.html">Experience</a>
+                    <a class="navbar-item" href="./educations-skill.html">Education and Skill</a>
+                    <a class="navbar-item" href="./contactme.html">Contact Me</a>
+                </div>
+            </div>
+        </div>
+      </nav>
+      <main class=" ml-6 mr-6 pl-3 pr-3">
+        <h1 class=" title is-2 has-text-primary has-text-centered mt-6">Education and Skills</h1>
+        <div class="columns">
+            <section class="column is-two-fifths">
+                <div class="column">
+                    <h2 class="title is-3 has-text-white">Education</h2>
+                    <ul >
+                        <li >
+                            <a href="https://portal.aait.edu.et" class="has-text-white">Addis Ababa Institute Of Technology</a>
                             <ul>
-                                <li><img src="images/AAitlogo.jpg"  alt="AAIT img"></li>
-                            </ul></li>
-                        
-                            <li><a href="https://www.coursera.org/professional-certificates/meta-front-end-developer">Coursera Meta front end developer</a>
-                                <ul>
-                                    <li><img src="images/education1.png"   alt="coursera certficate"></li>
-                                </ul></li>
-                        
-                            <li> <a href="https://www.coursera.org/professional-certificates/meta-back-end-developer">Coursera Meta back end developer</a>
-                                <ul>
-                                    <li><img src="images/backend.jpg" alt="coursera certficate"></li>
-                                </ul></li>
-                        
+                                <li><img class="mb-4" src="images/AAitlogo.jpg" alt="AAIT img"></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://www.coursera.org/professional-certificates/meta-front-end-developer" class="has-text-white">Coursera Meta front end developer</a>
+                            <ul class="all__eduall__ul">
+                                <li><img class="mb-4" src="images/education1.png" alt="coursera certificate"></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="https://www.coursera.org/professional-certificates/meta-back-end-developer" class="has-text-white">Coursera Meta back end developer</a>
+                            <ul >
+                                <li><img class="mb-4" src="images/backend.jpg" alt="coursera certificate"></li>
+                            </ul>
+                        </li>
                     </ul>
-
-        </section>
-        <section>
-            <h2>Skill</h2>
-                    <ul>
-                        <li>Front-end development</li>
-                        <li>Back-end development</li>
-                        <li>Python development</li>
-                        <li>React developer</li>
-                        <li>Django developer</li>
-                        <li>Mobile app developer</li>
+                </div>
+            </section>
+            <section class="column is-one-fifths">
+                <div class="column">
+                    <h2 class="eduskill__h2 title is-3">Skill</h2>
+                    <ul class="eduskill__ul">
+                        <li class="mb-5 title-is-5">Front-end development</li>
+                        <li class="mb-5 title-is-5">Back-end development</li>
+                        <li class="mb-5 title-is-5">Python development</li>
+                        <li class="mb-5 title-is-5">React developer</li>
+                        <li class="mb-5 title-is-5">Django developer</li>
+                        <li class="mb-5 title-is-5">Mobile app developer</li>
                     </ul>
-        </section>
-        <section>
-            <h2>My Works</h2>
-            
-            
-            <img src="images/personal-portfolio-img/images/work-1.png" alt="work_1">
-            <h3>Social Meadia App</h3>
-            <p>The app connects you to the talented people around the world. download it from the play store.</p>
-            <a href="#"><i class="fa-solid fa-link"></i></a>
-            <img src="images/personal-portfolio-img/images/work-2.png" alt="work_2">
-                    
-            <h3>Music App</h3>
-            <p>The app connects you to the talented people around the world. download it from the play store.</p>
-            <a href="#"><i class="fa-solid fa-link"></i></a>
-            <img src="images/personal-portfolio-img/images/work-3.png" alt="work_3">
-            
-            <h3>Online Shopping Website</h3>
-            <p>The Website connects you to the talented people around the world. download it from the play store.</p>
-            <a href="#"><i class="fa-solid fa-link"></i></a>
-        </section>
+                </div>
+            </section>
+            <section class="column is-two-fifths">
+                <div class="column">
+                    <h2 class=" title is-3">My Works</h2>
+                    <div class="container mb-2">
+                        <figure class="image is-3by2">
+                          <img src="images/work-1.png" alt="Your Image">
+                          <figcaption class="has-text-centered has-text-white is-overlay is-bottom">
+                            <h3 class="is-size-6 has-text-danger mt-5 pt-6 has-text-weight-bold">Social Meadia App</h3>
+                            <p class="is-size-6">The app connects you to world. </p>
+                          </figcaption>
+                        </figure>
+                    </div>
+                    <div class="container mb-2">
+                        <figure class="image is-3by2">
+                          <img src="images/work-2.png" alt="Your Image">
+                          <figcaption class="has-text-centered has-text-white is-overlay is-bottom">
+                            <h3 class="is-size-6 has-text-danger mt-5 pt-6 has-text-weight-bold">Music App</h3>
+                            <p class="is-size-6">The app connects you to the world. </p>
+                          </figcaption>
+                        </figure>
+                    </div>
+                    <div class="container">
+                        <figure class="image is-3by2">
+                          <img src="images/work-3.png" alt="Your Image">
+                          <figcaption class="has-text-centered has-text-white is-overlay is-bottom">
+                            <h3 class="is-size-6 has-text-danger mt-5 pt-6 has-text-weight-bold">Online shopping website</h3>
+                            <p class="is-size-6">The Website connects you to the world. </p>
+                          </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                </div>
+            </section>
+        </div>
     </main>
+                            
+    
+    <footer class="footer hero is-dark pt-1 pb-1">
+        <div class="is-flex content has-text-centered">
+            <img class="image is-64x64" src="images/lastlogo.jpg" alt="logo">
+            <p class=" has-text-white mt-5 title is-4">Yohannes</p>
+        </div>
+    </footer>
 </body>
 </html>
